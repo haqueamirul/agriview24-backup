@@ -9,23 +9,28 @@
  * @package agriview24
  */
 
+$options = get_option( 'my_options_framework' );
+
 ?>
 
     <!---- ================================
         footer-ads-area  start
     ===================================== ---->
 </main>
+<?php if ($options['cqat-secon-ads10']): ?>
+    
 <div class="footer-ads-area">
     <div class="container">
         <div class="row pt-40 pb-40">
             <div class="col-lg-12 col-md-12 col-sm-12">
                 <div class="footer-ads text-center">
-                    <a href="#"><img src="<?php echo get_template_directory_uri(); ?>/assets/frontend/images/ads/pradhikar-final.gif" alt="footer-ads" class="img-fluid"></a>
+                    <a href="<?php echo $options['ads-url-highlight10']; ?>"><img src="<?php echo $options['cqat-secon-ads10']; ?>" alt="footer-ads" class="img-fluid"></a>
                 </div>
             </div>
         </div>
     </div>
 </div>
+<?php endif ?>
 <!---- =============================
     footer-ads-area End
 ================================== ---->
@@ -38,18 +43,16 @@
         <div class="row footer-bg pt-60 pb-60">
             <div class="col-lg-4 col-md-6 col-sm-12">
                 <div class="footer-logo-area text-center">
-                    <a href="#"><img src="<?php echo get_template_directory_uri(); ?>/assets/frontend/images/Logo/logo.png" alt="logo" class="img-fluid"></a>
+                    <a href="<?php echo esc_url( home_url() ); ?>"><img src="<?php echo $options['footer-logo']; ?>" alt="logo" class="img-fluid"></a>
                 </div>
             </div>
             <div class="col-lg-8 col-md-6 col-sm-12">
                 <div class="footer-content-area text-center">
-                    <p> স্বত্ব ©এগ্রিভিউ টোয়েন্টিফোর.কম (২0১৬ - ২0২০)<br>
-                        <b>সম্পাদকঃ ড. আবুল খায়ের,</b>  <b>প্রকাশকঃ ডাঃ মনজুর কাদের চৌধুরী</b><br>
-                        এই ওয়েবসাইটের কোন লেখা বা ছবি অনুমতি ছাড়া নকল করা বা অন্য কোথাও প্রকাশ করা বেআইনি |</p>
+                   <?php echo $options['footer-text']; ?>
                     <ul>
                         <label>ই-মেইল :</label>
-                        <li><a href="#">info@gmail.com ,</a></li>
-                        <li><a href="#">agriview24@gmail.com</a></li>
+                        <li><a href="#"><?php echo $options['footer-email1']; ?> ,</a></li>
+                        <li><a href="#"><?php echo $options['footer-email1']; ?></a></li>
                     </ul>
                 </div>
                 <div class="contact-info">

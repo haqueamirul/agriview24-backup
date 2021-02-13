@@ -124,11 +124,12 @@ add_action( 'after_setup_theme', 'agriview24_content_width', 0 );
  		array_pop($var);
  	}
 
- 	array_push($var, '<a href="'.get_the_permalink().'">'.$readmore.'</a>');
+ 	// array_push($var, '<a href="'.get_the_permalink().'">'.$readmore.'</a>');
  	$var = implode(' ', $var);
 
  	return $var;
  }
+
 
 
 /**

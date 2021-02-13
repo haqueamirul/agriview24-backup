@@ -58,7 +58,7 @@ if( class_exists( 'CSF' ) ) {
             array(
               'id'           => 'below-ads1',
               'type'         => 'upload',
-              'title'        => 'Upload',
+              'title'        => 'Ads Image',
               'library'      => 'image',
               'placeholder'  => 'http://',
               'button_title' => 'Add Ads',
@@ -72,7 +72,7 @@ if( class_exists( 'CSF' ) ) {
             array(
               'id'           => 'below-ads2',
               'type'         => 'upload',
-              'title'        => 'Upload',
+              'title'        => 'Ads Image',
               'library'      => 'image',
               'placeholder'  => 'http://',
               'button_title' => 'Add Ads',
@@ -86,7 +86,7 @@ if( class_exists( 'CSF' ) ) {
             array(
               'id'           => 'below-ads3',
               'type'         => 'upload',
-              'title'        => 'Upload',
+              'title'        => 'Ads Image',
               'library'      => 'image',
               'placeholder'  => 'http://',
               'button_title' => 'Add Ads',
@@ -100,7 +100,7 @@ if( class_exists( 'CSF' ) ) {
             array(
               'id'           => 'below-ads4',
               'type'         => 'upload',
-              'title'        => 'Upload',
+              'title'        => 'Ads Image',
               'library'      => 'image',
               'placeholder'  => 'http://',
               'button_title' => 'Add Ads',
@@ -115,7 +115,7 @@ if( class_exists( 'CSF' ) ) {
             array(
               'id'           => 'highlight-below-ads',
               'type'         => 'upload',
-              'title'        => 'Upload',
+              'title'        => 'Highlight Ads Image',
               'library'      => 'image',
               'placeholder'  => 'http://',
               'button_title' => 'Add Ads',
@@ -124,7 +124,142 @@ if( class_exists( 'CSF' ) ) {
             array(
                 'id'    => 'ads-url-highlight',
                 'type'  => 'text',
-                'title' => 'Ads Link four',
+                'title' => 'Ads Link highlight',
+            ),
+
+            array(
+              'id'           => 'cqat-secon-ads',
+              'type'         => 'upload',
+              'title'        => 'Second Ads Image',
+              'library'      => 'image',
+              'placeholder'  => 'http://',
+              'button_title' => 'Add Ads',
+              'remove_title' => 'Remove Ads',
+            ),
+            array(
+                'id'    => 'ads-url-highlight2',
+                'type'  => 'text',
+                'title' => 'Ads Link second',
+            ),
+
+            array(
+              'id'           => 'cqat-secon-ads3',
+              'type'         => 'upload',
+              'title'        => 'Section three Ads Image',
+              'library'      => 'image',
+              'placeholder'  => 'http://',
+              'button_title' => 'Add Ads',
+              'remove_title' => 'Remove Ads',
+            ),
+            array(
+                'id'    => 'ads-url-highlight3',
+                'type'  => 'text',
+                'title' => 'Ads Link three',
+            ),
+
+            array(
+              'id'           => 'cqat-secon-ads4',
+              'type'         => 'upload',
+              'title'        => 'Section Four Ads Image',
+              'library'      => 'image',
+              'placeholder'  => 'http://',
+              'button_title' => 'Add Ads',
+              'remove_title' => 'Remove Ads',
+            ),
+            array(
+                'id'    => 'ads-url-highlight4',
+                'type'  => 'text',
+                'title' => 'Ads Link Four',
+            ),
+
+            array(
+              'id'           => 'cqat-secon-ads5',
+              'type'         => 'upload',
+              'title'        => 'Section Five Ads Image',
+              'library'      => 'image',
+              'placeholder'  => 'http://',
+              'button_title' => 'Add Ads',
+              'remove_title' => 'Remove Ads',
+            ),
+            array(
+                'id'    => 'ads-url-highlight5',
+                'type'  => 'text',
+                'title' => 'Ads Link Five',
+            ),
+
+            array(
+              'id'           => 'cqat-secon-ads6',
+              'type'         => 'upload',
+              'title'        => 'Section Six Ads Image',
+              'library'      => 'image',
+              'placeholder'  => 'http://',
+              'button_title' => 'Add Ads',
+              'remove_title' => 'Remove Ads',
+            ),
+            array(
+                'id'    => 'ads-url-highlight6',
+                'type'  => 'text',
+                'title' => 'Ads Link Six',
+            ),
+
+            array(
+              'id'           => 'cqat-secon-ads7',
+              'type'         => 'upload',
+              'title'        => 'Section Seven Ads Image',
+              'library'      => 'image',
+              'placeholder'  => 'http://',
+              'button_title' => 'Add Ads',
+              'remove_title' => 'Remove Ads',
+            ),
+            array(
+                'id'    => 'ads-url-highlight7',
+                'type'  => 'text',
+                'title' => 'Ads Link Seven',
+            ),
+
+            array(
+              'id'           => 'cqat-secon-ads8',
+              'type'         => 'upload',
+              'title'        => 'Section Eight Ads Image',
+              'library'      => 'image',
+              'placeholder'  => 'http://',
+              'button_title' => 'Add Ads',
+              'remove_title' => 'Remove Ads',
+            ),
+            array(
+                'id'    => 'ads-url-highlight8',
+                'type'  => 'text',
+                'title' => 'Ads Link Eight',
+            ),
+
+            array(
+              'id'           => 'cqat-secon-ads9',
+              'type'         => 'upload',
+              'title'        => 'Section Nine Ads Image',
+              'library'      => 'image',
+              'placeholder'  => 'http://',
+              'button_title' => 'Add Ads',
+              'remove_title' => 'Remove Ads',
+            ),
+            array(
+                'id'    => 'ads-url-highlight9',
+                'type'  => 'text',
+                'title' => 'Ads Link Nine',
+            ),
+
+            array(
+              'id'           => 'cqat-secon-ads10',
+              'type'         => 'upload',
+              'title'        => 'Footer Ads Image',
+              'library'      => 'image',
+              'placeholder'  => 'http://',
+              'button_title' => 'Add Ads',
+              'remove_title' => 'Remove Ads',
+            ),
+            array(
+                'id'    => 'ads-url-highlight10',
+                'type'  => 'text',
+                'title' => 'Ads Link Footer',
             ),
         )
     ) );
@@ -335,6 +470,50 @@ if( class_exists( 'CSF' ) ) {
         'title'  => 'Homepage Section Three',
         'fields' => array(
 
+
+            array(
+                'id'    => 'titleSec1',
+                'type'  => 'text',
+                'title' => 'Section Title Left',
+            ),
+            array(
+               'id'          => 'cat-onesection',
+               'type'        => 'select',
+               'title'       => 'Section category Select Left',
+               'placeholder' => 'Select an option',
+               'options'     => 'categories',
+            ),
+            array(
+                'id'    => 'titleSec2',
+                'type'  => 'text',
+                'title' => 'Section Title Center',
+            ), 
+            array(
+               'id'          => 'cat-onesection2',
+               'type'        => 'select',
+               'title'       => 'Section category Select Center',
+               'placeholder' => 'Select an option',
+               'options'     => 'categories',
+            ), 
+            array(
+                'id'    => 'titleSec3',
+                'type'  => 'text',
+                'title' => 'Section Title Right',
+            ),
+            array(
+               'id'          => 'cat-onesectionimg',
+               'type'        => 'upload',
+               'title'       => 'Upload Image for E-paper',
+            ), 
+        )
+    ) );
+
+
+     // Create a section
+    CSF::createSection( $prefix, array(
+        'title'  => 'Homepage Section Four',
+        'fields' => array(
+
             //
             // A text field
              array(
@@ -363,7 +542,7 @@ if( class_exists( 'CSF' ) ) {
 
     // Create a section
     CSF::createSection( $prefix, array(
-        'title'  => 'Homepage Section Four',
+        'title'  => 'Homepage Section Five',
         'fields' => array(
 
             //
@@ -394,7 +573,42 @@ if( class_exists( 'CSF' ) ) {
 
     // Create a section
     CSF::createSection( $prefix, array(
-        'title'  => 'Homepage Section Five',
+        'title'  => 'Homepage Section Six',
+        'fields' => array(
+
+            //
+            // A text field
+            
+            array(
+                'id'    => 'titlesecnew',
+                'type'  => 'text',
+                'title' => 'Section Title',
+            ),
+            array(
+               'id'          => 'catsect-catleft',
+               'type'        => 'select',
+               'title'       => 'category Select left',
+               'placeholder' => 'Select an option',
+               'options'     => 'categories',
+            ), 
+            array(
+                'id'    => 'titlesecnew1',
+                'type'  => 'text',
+                'title' => 'Section Title',
+            ),
+            array(
+               'id'          => 'catsect-catright',
+               'type'        => 'select',
+               'title'       => 'category Select right',
+               'placeholder' => 'Select an option',
+               'options'     => 'categories',
+            ), 
+        )
+    ) );
+
+    // Create a section
+    CSF::createSection( $prefix, array(
+        'title'  => 'Homepage Section Seven',
         'fields' => array(
 
             //
@@ -425,7 +639,53 @@ if( class_exists( 'CSF' ) ) {
 
     // Create a section
     CSF::createSection( $prefix, array(
-        'title'  => 'Homepage Section Six',
+        'title'  => 'Homepage Section Eight',
+        'fields' => array(
+
+            //
+            // A text field
+            array(
+                'id'    => 'titleany1',
+                'type'  => 'text',
+                'title' => 'Section Left Title',
+            ),
+            array(
+               'id'          => 'catsectionany1',
+               'type'        => 'select',
+               'title'       => 'Category Select Left',
+               'placeholder' => 'Select an option',
+               'options'     => 'categories',
+            ), 
+            array(
+                'id'    => 'titleany2',
+                'type'  => 'text',
+                'title' => 'Section Left Title',
+            ),
+            array(
+               'id'          => 'catsectionany2',
+               'type'        => 'select',
+               'title'       => 'Category Select Center',
+               'placeholder' => 'Select an option',
+               'options'     => 'categories',
+            ),
+            array(
+                'id'    => 'titleany3',
+                'type'  => 'text',
+                'title' => 'Section Left Title',
+            ),
+            array(
+               'id'          => 'catsectionany2',
+               'type'        => 'select',
+               'title'       => 'Category Select Right',
+               'placeholder' => 'Select an option',
+               'options'     => 'categories',
+            ),
+        )
+    ) );
+
+    // Create a section
+    CSF::createSection( $prefix, array(
+        'title'  => 'Homepage Section Nine',
         'fields' => array(
 
             //
@@ -454,4 +714,146 @@ if( class_exists( 'CSF' ) ) {
         )
     ) );
 
+
+    CSF::createSection( $prefix, array(
+        'title'  => 'Homepage Section Ten',
+        'fields' => array(
+
+            //
+            array(
+                'id'    => 'title-ten-slider',
+                'type'  => 'text',
+                'title' => 'Section Title',
+            ),
+            array(
+               'id'          => 'cat-footer-ten',
+               'type'        => 'select',
+               'title'       => 'Category Select Slider footer',
+               'placeholder' => 'Select an option',
+               'options'     => 'categories',
+            ), 
+        )
+    ) );
+
+
+    CSF::createSection( $prefix, array(
+        'title'  => 'Homepage Sidebar',
+        'fields' => array(
+
+            //
+            array(
+                'id'    => 'homepage-ads-sidebar1',
+                'type'  => 'upload',
+                'title' => 'Upload Ads Image Sidebar One',
+            ),
+            array(
+                'id'    => 'homepage-ads-sidebar1-link',
+                'type'  => 'text',
+                'title' => 'Ads Link',
+            ), 
+
+
+            array(
+               'id'          => 'homepage-sidebar-fb',
+               'type'        => 'select',
+               'title'       => 'Category Select For Facebook Corner',
+               'placeholder' => 'Select an option',
+               'options'     => 'categories',
+            ),
+
+            array(
+                'id'    => 'homepage-ads-sidebar2',
+                'type'  => 'upload',
+                'title' => 'Upload Ads Image Sidebar Two',
+            ),
+            array(
+                'id'    => 'homepage-ads-sidebar2-link',
+                'type'  => 'text',
+                'title' => 'Ads Link',
+            ), 
+
+            array(
+                'id'    => 'homepage-ads-sidebar3',
+                'type'  => 'upload',
+                'title' => 'Upload Ads Image Sidebar Three',
+            ),
+            array(
+                'id'    => 'homepage-ads-sidebar3-link',
+                'type'  => 'text',
+                'title' => 'Ads Link',
+            ),
+
+            array(
+                'id'    => 'homepage-ads-sidebar2-video',
+                'type'  => 'text',
+                'title' => 'Sidebar Ads Video',
+            ),
+
+            array(
+                'id'    => 'homepage-ads-sidebar4',
+                'type'  => 'upload',
+                'title' => 'Upload Ads Image Sidebar Four',
+            ),
+            array(
+                'id'    => 'homepage-ads-sidebar4-link',
+                'type'  => 'text',
+                'title' => 'Ads Link',
+            ),
+
+            array(
+                'id'    => 'homepage-ads-title',
+                'type'  => 'text',
+                'title' => 'Ads Title',
+            ), 
+            array(
+               'id'          => 'homepage-sidebar-news',
+               'type'        => 'select',
+               'title'       => 'Category Select For Sidebar Category',
+               'placeholder' => 'Select an option',
+               'options'     => 'categories',
+            ),
+
+             array(
+                'id'    => 'homepage-ads-sidebar5',
+                'type'  => 'upload',
+                'title' => 'Upload Ads Image Sidebar Five',
+            ),
+            array(
+                'id'    => 'homepage-ads-sidebar5-link',
+                'type'  => 'text',
+                'title' => 'Ads Link',
+            ),
+        )
+    ) );
+
+    CSF::createSection( $prefix, array(
+        'title'  => 'Footer Section',
+        'fields' => array(
+
+            //
+            array(
+                'id'    => 'footer-logo',
+                'type'  => 'upload',
+                'title' => 'Upload Footer Logo',
+            ),
+            array(
+               'id'          => 'footer-text',
+               'type'        => 'wp_editor',
+               'title'       => 'Footer Content',
+            ),
+            array(
+               'id'          => 'footer-email1',
+               'type'        => 'text',
+               'title'       => 'Footer email one',
+            ),
+            array(
+               'id'          => 'footer-email2',
+               'type'        => 'text',
+               'title'       => 'Footer email two',
+            ), 
+        )
+    ) );
+
 }
+
+

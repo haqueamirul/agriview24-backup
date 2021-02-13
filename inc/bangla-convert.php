@@ -125,3 +125,21 @@ function sunset_save_post_views( $postID ) {
 remove_action( 'wp_head', 'adjacent_posts_rel_link_wp_head', 10, 0 );
 
 
+
+
+
+
+
+// Add to the init hook of your theme functions.php file
+// function wpb_hidetitle_class($classes) {
+
+//     if ( is_page() ) : 
+//         $classes[] = 'hidetitle';
+//         return $classes;
+//     endif;
+
+//     return $classes;
+
+// }
+
+// add_filter('post_class', 'wpb_hidetitle_class');

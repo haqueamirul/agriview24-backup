@@ -49,7 +49,7 @@ $options = get_option( 'my_options_framework' ); // unique id of the framework
                     </div>
                     <div class="social-media media-right">
                         <ul class="social-nav">
-                            <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                            <li><a href="https://www.facebook.com/agriview24bd/" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
                             <li><a href="#"><i class="fab fa-youtube tube"></i></a></li>
                         </ul>
                     </div>
@@ -114,8 +114,8 @@ $options = get_option( 'my_options_framework' ); // unique id of the framework
                         );
                         ?>
                         <div class="search_area">
-                            <form action="./home/keywordsearch/" method="post" accept-charset="UTF-8">
-                                <input type="search" name="search_box">
+                            <form action="<?php bloginfo('home'); ?>" method="GET" accept-charset="UTF-8">
+                                <input type="search" name="s" value="<?php the_search_query(); ?>">
                                 <button type="submit" class="btn"><i class="fa fa-search" aria-hidden="true"></i></button>
                             </form>
                         </div>
